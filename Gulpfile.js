@@ -25,7 +25,7 @@ gulp.task('images', function () {
 gulp.task('watch', function () {
     var server = livereload();
 
-    gulp.watch('./frontend/sass/**/*.scss', ['styles']);
+    gulp.watch('./frontend/scss/**/*.scss', ['styles']);
     gulp.watch('./frontend/js/**.js', ['scripts']);
     gulp.watch('./frontend/img/**', ['images']);
     gulp.watch('./backend/**/*.php').on('change', function(file) {
