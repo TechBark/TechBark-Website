@@ -44,7 +44,7 @@ define('URL', URL_PROTOCOL . URL_DOMAIN . URL_SUB_FOLDER);
  */
 define('DB_TYPE', 'mysql');
 define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'database');
-define('DB_USER', 'username');
-define('DB_PASS', 'password');
+define('DB_NAME', 'z1719807');
+define('DB_USER', 'z1719807');
+define('DB_PASS', '101020025');
 define('DB_CHARSET', 'utf8');
