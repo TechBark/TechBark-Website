@@ -5,3 +5,4 @@ public/css/
 public/js/
 .DS_Store
 Thumbs.db
+application/config/config.php
