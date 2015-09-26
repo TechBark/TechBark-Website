@@ -25,7 +25,7 @@ gulp.task('images', function () {
 gulp.task('watch', function () {
     var server = livereload();
 
-    gulp.watch('./private/css/*.scss', ['styles']);
+    gulp.watch('./private/scss/*.scss', ['styles']);
     gulp.watch('./private/js/*.js', ['scripts']);
     gulp.watch('./private/img/*', ['images']);
 });
@@ -40,4 +40,4 @@ gulp.task('styles', function () {
 });
 
 // The default task (called when you run `gulp` from cli)
-gulp.task('default', ['styles', 'scripts', 'images']);
+gulp.task('default', ['styles', 'scripts', 'images','watch']);

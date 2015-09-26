@@ -17,4 +17,15 @@ class Home extends Controller {
   require APP . 'view/home/index.php';
   require APP . 'view/_templates/footer.php';
   }
+
+/**
+ * PAGE: events
+ * This method handles what happens when you move to http://yourproject/home/events
+*/
+ public function events() {
+  require APP . 'view/_templates/header.php';
+  echo "This is the events page";
+  require APP . 'view/_templates/footer.php';
+  }
+
  }
